@@ -11,7 +11,7 @@ body { background-color: #111; color: #fff; }
 .login-btn { padding: 8px 16px; border: none; background: green; color: #fff; border-radius: 5px; cursor: pointer; }
 
 /* Hero Section */
-.hero { height: 90vh; background: url('images/snooker-bg.jpg') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; }
+.hero { height: 90vh; background: url('img2.jpg') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; }
 .hero-content h1 { font-size: 3rem; margin-bottom: 15px; color: greenyellow; }
 .hero-content p { margin-bottom: 20px; font-size: 1.2rem; }
 .cta-btn { padding: 12px 20px; margin: 10px; border: none; border-radius: 8px; background: green; color: #fff; font-size: 1rem; cursor: pointer; transition: background 0.3s; }
@@ -46,3 +46,4 @@ body { background-color: #111; color: #fff; }
 
 /* Footer */
 footer { background: #0a0a0a; text-align: center; padding: 15px; border-top: 2px solid green; }
+
