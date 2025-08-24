@@ -12,18 +12,19 @@
     <nav class="navbar">
       <div class="logo">🎱 Snooker Club</div>
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#booking">Book Table</a></li>
-        <li><a href="#leaderboard">Leaderboard</a></li>
-        <li><a href="#tournament">Tournaments</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Book Table</a></li>
+        <li><a href="#">Matches</a></li>
+        <li><a href="#">Leaderboard</a></li>
+        <li><a href="#">Tournaments</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
       <button class="login-btn">Login</button>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="hero">
+  <section class="hero">
     <div class="hero-content">
       <h1>Welcome to the Snooker Club 🎱</h1>
       <p>Join us for tournaments, book tables, and track live matches.</p>
@@ -32,167 +33,31 @@
     </div>
   </section>
 
-  <!-- Booking System -->
-  <section id="booking" class="booking">
-    <h2>📅 Book a Table</h2>
-    <form class="booking-form">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" placeholder="Enter your name" required>
-
-      <label for="date">Date:</label>
-      <input type="date" id="date" required>
-
-      <label for="time">Time:</label>
-      <input type="time" id="time" required>
-
-      <label for="table">Select Table:</label>
-      <select id="table">
-        <option value="Table 1">Table 1</option>
-        <option value="Table 2">Table 2</option>
-        <option value="Table 3">Table 3</option>
-      </select>
-
-      <button type="submit" class="cta-btn">Book Now</button>
-    </form>
-  </section>
-
-<!-- Tables & Slots Section -->
-<section id="tables" class="tables">
-  <h2>Available Tables & Slots</h2>
-  
-  <div class="table-card" data-table="Table 1">
-    <h3>Table 1</h3>
-    <div class="slots">
-      <button class="slot available" data-time="8-10 AM">8–10 AM</button>
-      <button class="slot booked" disabled>10–12 PM (Player 2)</button>
-      <button class="slot available" data-time="12-2 PM">12–2 PM</button>
-      <button class="slot available" data-time="2-4 PM">2–4 PM</button>
-    </div>
-  </div>
-
-  <div class="table-card" data-table="Table 2">
-    <h3>Table 2</h3>
-    <div class="slots">
-      <button class="slot available" data-time="8-10 AM">8–10 AM</button>
-      <button class="slot booked" disabled>10–12 PM (Player 3)</button>
-      <button class="slot available" data-time="12-2 PM">12–2 PM</button>
-      <button class="slot available" data-time="2-4 PM">2–4 PM</button>
-    </div>
-  </div>
-</section>
-
-<!-- Tables & Slots Section -->
-<section id="tables" class="tables">
-  <h2>Available Tables & Slots</h2>
-  
-  <div class="table-card" data-table="Table 1">
-    <h3>Table 1</h3>
-    <div class="slots-grid">
-      <button class="slot available" data-time="8-10 AM">8–10 AM</button>
-      <button class="slot booked" disabled>10–12 PM<br>(Player 2)</button>
-      <button class="slot available" data-time="12-2 PM">12–2 PM</button>
-      <button class="slot available" data-time="2-4 PM">2–4 PM</button>
-    </div>
-  </div>
-
-  <div class="table-card" data-table="Table 2">
-    <h3>Table 2</h3>
-    <div class="slots-grid">
-      <button class="slot available" data-time="8-10 AM">8–10 AM</button>
-      <button class="slot booked" disabled>10–12 PM<br>(Player 3)</button>
-      <button class="slot available" data-time="12-2 PM">12–2 PM</button>
-      <button class="slot available" data-time="2-4 PM">2–4 PM</button>
-    </div>
-  </div>
-</section>
-
-
-
-
-
   <!-- Leaderboard Preview -->
-  <section id="leaderboard" class="leaderboard">
+  <section class="leaderboard">
     <h2>🏆 Top Players</h2>
     <div class="player-cards">
       <div class="player-card">
-        <img src="images\player1.jpg" alt="Player 1">
+        <img src="images/player1.jpg" alt="Player 1">
         <h3>John Doe</h3>
         <p>Wins: 15 | Rank: 1</p>
       </div>
       <div class="player-card">
-        <img src="images\player2.jpg" alt="Player 2">
+        <img src="images/player2.jpg" alt="Player 2">
         <h3>Jane Smith</h3>
         <p>Wins: 12 | Rank: 2</p>
       </div>
       <div class="player-card">
-        <img src="images\player3.jpg" alt="Player 3">
+        <img src="images/player3.jpg" alt="Player 3">
         <h3>Mike Lee</h3>
         <p>Wins: 10 | Rank: 3</p>
       </div>
     </div>
   </section>
 
-  <!-- Tournament Section -->
-  <section id="tournament" class="tournament">
-    <h2>🎯 Snooker Tournament</h2>
-    <div class="tournament-container">
-      <div class="bracket">
-        <h3>Knockout Bracket</h3>
-        <ul>
-          <li>John vs Mike → Winner: John</li>
-          <li>Jane vs Alex → Winner: Jane</li>
-          <li>John vs Jane → Final</li>
-        </ul>
-      </div>
-
-      <div class="registration">
-        <h3>Register for Upcoming Tournament</h3>
-        <form>
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Email" required>
-          <button type="submit" class="cta-btn">Register</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
   <!-- Footer -->
-<footer class="footer">
-  <div class="footer-content">
-    <div class="footer-left">
-      <h3>🎱 Snooker Club</h3>
-      <p>123 Billiards Street,<br>Bhopal, MP - 462001</p>
-    </div>
-
-    <div class="footer-center">
-      <h4>Contact Us</h4>
-      <p>📞 +91 98765 43210</p>
-      <p>📧 info@snookerclub.com</p>
-    </div>
-
-    <div class="footer-right">
-      <h4>Follow Us</h4>
-      <a href="#">Facebook</a> |
-      <a href="#">Instagram</a> |
-      <a href="#">Twitter</a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2025 Snooker Club. All rights reserved.</p>
-  </div>
-</footer>
-
-<script>
-  function toggleTables() {
-    const container = document.getElementById("tables-container");
-    container.classList.toggle("hidden");
-
-    const btn = document.querySelector(".toggle-btn");
-    if (container.classList.contains("hidden")) {
-      btn.textContent = "View Available Tables";
-    } else {
-      btn.textContent = "Hide Tables";
-    }
-  }
-</script>
-
+  <footer>
+    <p>© 2025 Snooker Club | Designed for College Placement Project</p>
+  </footer>
+</body>
+</html>
